@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --font-family: 'Bai Jamjuree', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: var(--font-family);
+}
+
+/* 
+=========================
+
+header section
+
+========================= 
+*/
+
+header{
+    text-align: center;
+    width: auto;
+    min-height: 20rem; 
+    background:url("../images/bg-header-desktop.png") no-repeat 0/cover ;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_logo{
+    width: 4rem;   
+}
+.history{
+    min-height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+}
+p{
+    margin-top: 1rem;
+}
+.para-1, .para-2 {
+    padding: 0 20%;
+   
+}
+
+.button-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.btn{
+    color: #ffffff;
+    width: 12rem;
+    margin: 1rem 0;
+    border: none;
+    padding: 8px;
+    border-radius: 30px;
+    filter: blur(.5px);
+}
+.btn-1{
+   
+    background-color: var(--Strong-Cyan);
+    box-shadow:  0px 4px 4px 4px hsla(171, 66%, 44%, 0.267) ;
+    
+}
+.btn-2{
+    
+    background-color: var(--Light-Blue);
+    box-shadow: 0px 4px 4px 4px hsla(233, 100%, 69%, 0.26);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+/* 
+=========================
+
+quick search section
+
+========================= 
+*/
+
+.quick_search{
+    margin-top:4rem ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10%;
+}
+.computer_image{
+    width: 35rem;
+    position: relative;
+    left: -2rem;
+    overflow: hidden;
+}
+.detail{
+    display: flex; 
+    flex-direction: column;
+    gap:50px;
+}
+.child_detail{
+    width: 65%;
+    padding-left: 50px;
+}
+.clipboard{
+    text-align: center;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.para-4{
+    text-align: center;
+    padding: 0 30%;
+}
+
+/* 
+=========================
+
+dashboard section 
+
+========================= 
+*/
+
+.dashboard{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dashboard-child{
+    text-align: center;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex: 0 0 25%;
+    gap: .3rem;
+}
+.icon-dashboard{
+    width: 2rem;
+}
+.heading-h2-4{
+    font-size: 18px!important;
+}
+.para-5{
+    font-size: 14px;
+    margin-top: 0;
+    padding:0 10% ;
+    
+}
+/* 
+=========================
+
+company logos
+
+========================= 
+*/
+.company_logo{
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.company_logo_1{
+    width: 6rem;
+}
+
+.description{
+    /* border: 2px solid red; */
+    min-height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.para-7{
+   padding: 0 27%;
+}
+/* 
+=========================
+
+footer section 
+
+========================= 
+*/
+
+footer{  
+    margin-top: 5rem;
+        min-height: 8rem;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.footer_section{
+    display: flex;
+    flex-direction: row;      
+    gap: 50px
+}
+.footer-logo{
+    width: 2rem;
+}
+
+/* 
+=========================
+
+footer 
+
+========================= 
+*/
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.links{
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+}
+.links:hover{
+    color: var(--Strong-Cyan);
+}
+/* 
+=========================
+
+ social media links 
+
+========================= 
+*/
+
+
+.social_links-1{
+    color: var(--Dark-Grayish-Blue);
+    font-size: 18px;
+    text-decoration: none;
+}
+.fa-brands{
+    width: 30px;
+}
+.fa-brands:hover{
+color: var(--Strong-Cyan);
+}
+
